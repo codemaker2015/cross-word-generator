@@ -100,7 +100,7 @@ function CrossWordGenerator() {
   };
 
   const getData = async () => {
-    await fetch("http://localhost:3000/get-data")
+    await fetch(import.meta.env.VITE_BACKEND_URL)
       .then((res) => res.json())
       .then((res) => setData(res));
   };
