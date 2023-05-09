@@ -10,8 +10,10 @@
 
 .container-row {
     display: flex;
-    /* width: 98%; */
+    width: 98%;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start !important;
 }
 
 .container-column {
@@ -42,7 +44,9 @@
 .form-container {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    align-items: center !important;
+    justify-content: flex-start;
+    padding: 10px;
     margin: 10px;
     background-color: #f3f3f3;
     border-radius: 20px;
@@ -56,6 +60,8 @@
     background-color: #f3f3f3;
     border-radius: 20px;
     width: 65vw;
+    overflow: auto;
+    min-height: 100vh;
 }
 
 .details {
@@ -65,7 +71,7 @@
 }
 
 .inp-label {
-    margin-left: 5px;
+    width: 100%;
 }
 
 .inp-field {
@@ -77,6 +83,7 @@
     cursor: pointer;
     padding: 12px;
     margin: 5px;
+    width: 100%;
 }
 
 .inp-btn {

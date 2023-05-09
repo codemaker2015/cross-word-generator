@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+  }
+  
+  .container-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .container-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .input-controls {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+    color: black;
+    padding: 15px 20px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    width: 50%;
+  }
+  
+  .btn-remove { 
+    background-color: none;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .btn-add {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 20px;
+    white-space: pre-line;
+  }
+
+  .result-input-clue {
+    width: 75%;
+    padding: 7px;
+    margin-bottom: 3px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .result-input-answer {
+    width: 25%;
+    padding: 7px;
+    margin-bottom: 3px;
+  }
+
+  .action-container {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
