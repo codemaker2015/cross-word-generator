@@ -1,9 +1,14 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import CrossWordGenerator from "./components/CrossWordGenerator"
 
 function App() {
 
   return (
-    <CrossWordGenerator/>    
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<CrossWordGenerator />} />
+      </Routes>
+    </BrowserRouter>    
   )
 }
 

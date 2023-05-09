@@ -442,14 +442,14 @@ function CrossWordGenerator() {
   };
 
   return (
-    <div className="container container-column">
+    <div className="container-column">
       <div className="header-container">Cross Word Generator</div>
       {/* Form division */}
       <div className="container-row">
         <div className="form-container">
           <h3>Add Entries</h3>
           <form onSubmit={handleSubmit}>
-            <div>
+            <div className="container-row">
               <label className="inp-label">Direction</label>
               <input
                 className="inp-field"
